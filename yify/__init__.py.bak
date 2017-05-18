@@ -90,7 +90,7 @@ def search(keyword, from_page=1, to_page=1):
 def main():
     movies = latest(1, 3)
     for m in movies:
-        print(('{}: {}'.format(m['title'], m['rating'])))
+        print('{}: {}'.format(m['title'], m['rating']))
 
 if __name__ == '__main__':
     main()
