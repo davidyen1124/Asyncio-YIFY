@@ -11,7 +11,7 @@ setup(
     url='https://github.com/davidyen1124/Asyncio-YIFY',
     packages=['yify'],
     install_requires=[
-        'aiohttp==0.11.0',
+        'aiohttp==3.7.4',
         'lxml==3.4.1',
     ],
 )
