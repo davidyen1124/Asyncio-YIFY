@@ -12,6 +12,6 @@ setup(
     packages=['yify'],
     install_requires=[
         'aiohttp==0.11.0',
-        'lxml==3.4.1',
+        'lxml==4.6.3',
     ],
 )
